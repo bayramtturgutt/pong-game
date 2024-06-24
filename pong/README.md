@@ -22,7 +22,7 @@ Features
     Dynamic scoring and ball movement mechanics.
 
 How to Play
-
+<b> https://data-analytics-420415.web.app </b>
 Describe briefly how the game works and what the objective is. For example:
 
     The objective of the game is to score points by getting the ball past your opponent's paddle.
