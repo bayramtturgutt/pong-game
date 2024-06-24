@@ -14,7 +14,9 @@ Table of Contents
 
 Demo
 
-Include a link to a live demo or a video demonstration of the game.
+<b> https://data-analytics-420415.web.app </b>
+
+
 Features
 
     Responsive gameplay area using HTML5 canvas.
@@ -22,15 +24,11 @@ Features
     Dynamic scoring and ball movement mechanics.
 
 How to Play
-<b> https://data-analytics-420415.web.app </b>
-Describe briefly how the game works and what the objective is. For example:
 
     The objective of the game is to score points by getting the ball past your opponent's paddle.
     The game ends when one player reaches a predefined score (e.g., 10 points).
 
 Controls
-
-Outline the controls used in the game. For example:
 
     Player 1 (Left Paddle):
         Up Arrow: Move paddle up
@@ -41,10 +39,10 @@ Outline the controls used in the game. For example:
 
 Gameplay Screenshots
 
-Insert screenshots of the game in action to give users a visual representation of what to expect.
-Installation
+![image](https://github.com/bayramtturgutt/pong-game/assets/137455737/1c566506-066e-4f00-9fbd-4bbd8dddc52c)
 
-Provide instructions on how to install and run the game locally, if applicable.
+![image](https://github.com/bayramtturgutt/pong-game/assets/137455737/40a60932-068d-4352-ad13-91f62fd22c76)
+
 
     Clone the repository:
 
@@ -55,10 +53,5 @@ Provide instructions on how to install and run the game locally, if applicable.
     Open index.html in your web browser.
 
 Contributing
-
-Provide guidelines for contributing to the project if you wish to accept contributions from others.
-License
-
-Specify the license under which the game is distributed. For example:
 
     This project is licensed under the MIT License - see the LICENSE file for details.
