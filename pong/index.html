@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ballSelection">
+        <h2>Select a Ball</h2>
+        <form id="ballForm">
+            <label>
+                <input type="radio" name="ball" value="basketball" checked>
+                Basketball
+            </label>
+            <label>
+                <input type="radio" name="ball" value="football">
+                Football
+            </label>
+            <label>
+                <input type="radio" name="ball" value="tennis">
+                Tennis
+            </label>
+            <label>
+                <input type="radio" name="ball" value="baseball">
+                Baseball
+            </label>
+            <label>
+                <input type="radio" name="ball" value="soccer">
+                Soccer
+            </label>
+            <label>
+                <input type="radio" name="ball" value="volleyball">
+                Volleyball
+            </label>
+            <label>
+                <input type="radio" name="ball" value="cricket">
+                Cricket
+            </label>
+            <label>
+                <input type="radio" name="ball" value="golf">
+                Golf
+            </label>
+            <label>
+                <input type="radio" name="ball" value="rugby">
+                Rugby
+            </label>
+            <label>
+                <input type="radio" name="ball" value="pingpong">
+                Ping Pong
+            </label>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+    <canvas id="pongCanvas" style="display:none;"></canvas>
+    <div id="scoreBoard" style="display:none;">
+        <div id="playerScore">Player: 0</div>
+        <div id="computerScore">Computer: 0</div>
+    </div>
+    <div id="message"></div>
+    <script src="main.js"></script>
+</body>
+</html>

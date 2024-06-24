@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "pong",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

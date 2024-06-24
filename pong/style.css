@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#ballSelection {
+    text-align: center;
+    color: #fff;
+}
+
+#ballSelection h2 {
+    margin-bottom: 20px;
+}
+
+#ballForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#ballForm button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+#pongCanvas {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+#scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #ff0;
+    display: none;
+}
